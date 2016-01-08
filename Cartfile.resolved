@@ -1,0 +1,3 @@
+github "antitypical/Result" "1.0.1"
+github "appsquickly/Typhoon" "080a6846eb7e8430462dcfc922aedbe1097b6810"
+github "ReactiveCocoa/ReactiveCocoa" "v4.0.0-RC.1"

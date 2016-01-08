@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231314261C25F84F0089AAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314251C25F84F0089AAF8 /* AppDelegate.swift */; };
+		231314281C25F84F0089AAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314271C25F84F0089AAF8 /* ViewController.swift */; };
+		2313142B1C25F84F0089AAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231314291C25F84F0089AAF8 /* Main.storyboard */; };
+		2313142D1C25F84F0089AAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2313142C1C25F84F0089AAF8 /* Assets.xcassets */; };
+		231314301C25F84F0089AAF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2313142E1C25F84F0089AAF8 /* LaunchScreen.storyboard */; };
+		2313143A1C25FA140089AAF8 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231314371C25FA140089AAF8 /* ReactiveCocoa.framework */; };
+		2313143B1C25FA140089AAF8 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231314381C25FA140089AAF8 /* Result.framework */; };
+		2313143C1C25FA140089AAF8 /* Typhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231314391C25FA140089AAF8 /* Typhoon.framework */; };
+		231314441C25FAA70089AAF8 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313143E1C25FAA70089AAF8 /* Action.swift */; };
+		231314461C25FAA70089AAF8 /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314401C25FAA70089AAF8 /* ApplicationAssembly.swift */; };
+		231314471C25FAA70089AAF8 /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314411C25FAA70089AAF8 /* ApplicationState.swift */; };
+		231314491C25FAA70089AAF8 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314431C25FAA70089AAF8 /* Dispatcher.swift */; };
+		2313144B1C25FABC0089AAF8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313144A1C25FABC0089AAF8 /* ViewModel.swift */; };
+		231314511C26DB200089AAF8 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314501C26DB200089AAF8 /* Repository.swift */; };
+		231314541C26DD090089AAF8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 231314531C26DD090089AAF8 /* README.md */; };
+		231314571C26E5CB0089AAF8 /* UserEventTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231314561C26E5CB0089AAF8 /* UserEventTracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231314221C25F84F0089AAF8 /* Redux-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Redux-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231314251C25F84F0089AAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231314271C25F84F0089AAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2313142A1C25F84F0089AAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2313142C1C25F84F0089AAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2313142F1C25F84F0089AAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231314311C25F84F0089AAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231314371C25FA140089AAF8 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		231314381C25FA140089AAF8 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		231314391C25FA140089AAF8 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
+		2313143E1C25FAA70089AAF8 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		231314401C25FAA70089AAF8 /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		231314411C25FAA70089AAF8 /* ApplicationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		231314431C25FAA70089AAF8 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		2313144A1C25FABC0089AAF8 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		231314501C26DB200089AAF8 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		231314531C26DD090089AAF8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		231314561C26E5CB0089AAF8 /* UserEventTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEventTracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2313141F1C25F84F0089AAF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2313143A1C25FA140089AAF8 /* ReactiveCocoa.framework in Frameworks */,
+				2313143B1C25FA140089AAF8 /* Result.framework in Frameworks */,
+				2313143C1C25FA140089AAF8 /* Typhoon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231314191C25F84F0089AAF8 = {
+			isa = PBXGroup;
+			children = (
+				231314531C26DD090089AAF8 /* README.md */,
+				231314241C25F84F0089AAF8 /* Redux-MVVM */,
+				231314371C25FA140089AAF8 /* ReactiveCocoa.framework */,
+				231314381C25FA140089AAF8 /* Result.framework */,
+				231314391C25FA140089AAF8 /* Typhoon.framework */,
+				231314231C25F84F0089AAF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231314231C25F84F0089AAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231314221C25F84F0089AAF8 /* Redux-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231314241C25F84F0089AAF8 /* Redux-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				231314551C26DF8A0089AAF8 /* User Tracking */,
+				231314521C26DCB50089AAF8 /* User Interface Event System */,
+				2313142C1C25F84F0089AAF8 /* Assets.xcassets */,
+				2313142E1C25F84F0089AAF8 /* LaunchScreen.storyboard */,
+				231314291C25F84F0089AAF8 /* Main.storyboard */,
+				231314251C25F84F0089AAF8 /* AppDelegate.swift */,
+				231314401C25FAA70089AAF8 /* ApplicationAssembly.swift */,
+				231314311C25F84F0089AAF8 /* Info.plist */,
+				231314271C25F84F0089AAF8 /* ViewController.swift */,
+				2313144A1C25FABC0089AAF8 /* ViewModel.swift */,
+				231314501C26DB200089AAF8 /* Repository.swift */,
+			);
+			path = "Redux-MVVM";
+			sourceTree = "<group>";
+		};
+		231314521C26DCB50089AAF8 /* User Interface Event System */ = {
+			isa = PBXGroup;
+			children = (
+				2313143E1C25FAA70089AAF8 /* Action.swift */,
+				231314411C25FAA70089AAF8 /* ApplicationState.swift */,
+				231314431C25FAA70089AAF8 /* Dispatcher.swift */,
+			);
+			name = "User Interface Event System";
+			sourceTree = "<group>";
+		};
+		231314551C26DF8A0089AAF8 /* User Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				231314561C26E5CB0089AAF8 /* UserEventTracker.swift */,
+			);
+			name = "User Tracking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231314211C25F84F0089AAF8 /* Redux-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231314341C25F84F0089AAF8 /* Build configuration list for PBXNativeTarget "Redux-MVVM" */;
+			buildPhases = (
+				2313141E1C25F84F0089AAF8 /* Sources */,
+				2313141F1C25F84F0089AAF8 /* Frameworks */,
+				231314201C25F84F0089AAF8 /* Resources */,
+				2313143D1C25FA1A0089AAF8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Redux-MVVM";
+			productName = "Redux-MVVM";
+			productReference = 231314221C25F84F0089AAF8 /* Redux-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2313141A1C25F84F0089AAF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "bmore creative";
+				TargetAttributes = {
+					231314211C25F84F0089AAF8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2313141D1C25F84F0089AAF8 /* Build configuration list for PBXProject "Redux-MVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231314191C25F84F0089AAF8;
+			productRefGroup = 231314231C25F84F0089AAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231314211C25F84F0089AAF8 /* Redux-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231314201C25F84F0089AAF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231314301C25F84F0089AAF8 /* LaunchScreen.storyboard in Resources */,
+				2313142D1C25F84F0089AAF8 /* Assets.xcassets in Resources */,
+				2313142B1C25F84F0089AAF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2313143D1C25FA1A0089AAF8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Typhoon.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2313141E1C25F84F0089AAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231314471C25FAA70089AAF8 /* ApplicationState.swift in Sources */,
+				2313144B1C25FABC0089AAF8 /* ViewModel.swift in Sources */,
+				231314571C26E5CB0089AAF8 /* UserEventTracker.swift in Sources */,
+				231314491C25FAA70089AAF8 /* Dispatcher.swift in Sources */,
+				231314511C26DB200089AAF8 /* Repository.swift in Sources */,
+				231314461C25FAA70089AAF8 /* ApplicationAssembly.swift in Sources */,
+				231314281C25F84F0089AAF8 /* ViewController.swift in Sources */,
+				231314541C26DD090089AAF8 /* README.md in Sources */,
+				231314441C25FAA70089AAF8 /* Action.swift in Sources */,
+				231314261C25F84F0089AAF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231314291C25F84F0089AAF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2313142A1C25F84F0089AAF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2313142E1C25F84F0089AAF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2313142F1C25F84F0089AAF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231314321C25F84F0089AAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231314331C25F84F0089AAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231314351C25F84F0089AAF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Redux-MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bmore.Redux-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		231314361C25F84F0089AAF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Redux-MVVM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.bmore.Redux-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2313141D1C25F84F0089AAF8 /* Build configuration list for PBXProject "Redux-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231314321C25F84F0089AAF8 /* Debug */,
+				231314331C25F84F0089AAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231314341C25F84F0089AAF8 /* Build configuration list for PBXNativeTarget "Redux-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231314351C25F84F0089AAF8 /* Debug */,
+				231314361C25F84F0089AAF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2313141A1C25F84F0089AAF8 /* Project object */;
+}
